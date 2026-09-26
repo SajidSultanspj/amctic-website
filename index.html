@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== SEO META TAGS ===== -->
+    <title>AMCTIC – Construction, HVAC & CCTV Company in Salalah, Oman</title>
+    <meta name="description" content="AMCTIC (Abraz Modern City Trading Investment Company) delivers turnkey construction, HVAC/AC installation, and CCTV & network security solutions in Salalah, Dhofar, Oman. 15+ years, 200+ projects." />
+    <meta name="keywords" content="construction Salalah, AC installation Oman, CCTV Dhofar, HVAC Oman, network security Salalah, AMCTIC, general contracting Oman, MEP solutions Dhofar" />
+    <meta name="author" content="AMCTIC – Abraz Modern City Trading Investment Company" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://amctic.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AMCTIC – Construction, HVAC & CCTV Company in Salalah, Oman" />
+    <meta property="og:description" content="Turnkey construction, AC/HVAC, and CCTV & network security solutions trusted by 200+ clients across the region." />
+    <meta property="og:url" content="https://amctic.com/" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80" />
+    <meta property="og:site_name" content="AMCTIC" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AMCTIC – Construction, HVAC & CCTV in Salalah, Oman" />
+    <meta name="twitter:description" content="Turnkey engineering solutions: construction, HVAC, CCTV & networks." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        :root {
+            --navy: #0f2e1f;
+            --navy-light: #1b4a30;
+            --orange: #22c55e;
+            --teal: #86efac;
+            --gray-bg: #f0fdf4;
+            --text-light: #d1fae5;
+            --shadow: 0 12px 35px rgba(15,46,31,0.08);
+            --radius: 18px;
+        }
+        html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+        body { background: #ffffff; color: #1e2a22; }
+        a { text-decoration: none; }
+        .container { width: 92%; max-width: 1240px; margin: auto; padding: 15px 0; }
+        .btn-primary { background: var(--orange); color: #fff; padding: 13px 34px; border-radius: 50px; font-weight: 700; border: none; font-size: 1rem; cursor: pointer; transition: 0.3s; display: inline-block; box-shadow: 0 4px 14px rgba(34,197,94,0.35); }
+        .btn-primary:hover { background: #16a34a; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(34,197,94,0.45); }
+        .btn-teal { background: var(--teal); color: #0f2e1f; padding: 10px 24px; border-radius: 50px; font-weight: 700; border: none; cursor: pointer; transition: 0.3s; display: inline-block; font-size: 0.9rem; }
+        .btn-teal:hover { background: #4ade80; transform: scale(1.03); }
+        .section-title { text-align: center; margin-bottom: 55px; }
+        .section-title h2 { font-size: 2.6rem; color: var(--navy); font-weight: 800; }
+        .section-title h2 span { color: var(--orange); }
+        .section-title p { color: #4b5f52; max-width: 620px; margin: 8px auto 0; font-size: 1.1rem; }
+        .section-title .line { width: 65px; height: 4px; background: var(--teal); margin: 14px auto 0; border-radius: 8px; }
+
+        /* HEADER */
+        header { background: var(--navy); padding: 12px 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 3px 25px rgba(0,0,0,0.4); }
+        nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo h1 { color: #fff; font-size: 1.7rem; font-weight: 800; letter-spacing: -0.5px; }
+        .logo h1 span { color: var(--orange); }
+        .logo small { display: block; color: var(--teal); font-size: 0.7rem; letter-spacing: 2.5px; font-weight: 300; }
+        .nav-links { display: flex; list-style: none; gap: 22px; align-items: center; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-light); font-weight: 600; transition: 0.3s; font-size: 0.9rem; }
+        .nav-links a:hover { color: var(--orange); }
+        .nav-links .btn-primary { padding: 8px 22px; font-size: 0.85rem; }
+        .hamburger { display: none; font-size: 2rem; color: #fff; cursor: pointer; }
+
+        /* HERO */
+        .hero { background: linear-gradient(145deg, rgba(15,46,31,0.95) 0%, rgba(27,74,48,0.92) 100%), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80') center/cover; padding: 70px 0 80px; color: #fff; position: relative; overflow: hidden; }
+        .hero::after { content: 'AMCTIC'; position: absolute; right: -60px; bottom: -40px; font-size: 18rem; font-weight: 900; color: rgba(255,255,255,0.03); pointer-events: none; }
+        .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; position: relative; z-index: 2; }
+        .hero-text h1 { font-size: 3.4rem; font-weight: 800; line-height: 1.2; }
+        .hero-text h1 .highlight { background: linear-gradient(45deg, var(--orange), var(--teal)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-text p { font-size: 1.2rem; color: #d1fae5; margin: 20px 0 30px; line-height: 1.8; }
+        .hero-badges { display: flex; flex-wrap: wrap; gap: 25px; margin-top: 25px; }
+        .hero-badges span i { color: var(--orange); margin-right: 8px; }
+        .hero-stats { background: rgba(255,255,255,0.06); backdrop-filter: blur(8px); padding: 35px 30px; border-radius: var(--radius); border: 1px solid rgba(255,255,255,0.08); display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+        .hero-stats .stat h3 { font-size: 2.4rem; color: var(--orange); }
+        .hero-stats .stat p { color: var(--text-light); font-size: 0.9rem; margin: 0; }
+
+        /* SERVICES */
+        .services { padding: 80px 0; background: var(--gray-bg); }
+        .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 30px; }
+        .service-card { background: #fff; padding: 40px 28px; border-radius: var(--radius); text-align: center; box-shadow: var(--shadow); transition: 0.4s; border-bottom: 5px solid transparent; }
+        .service-card:hover { transform: translateY(-12px); border-bottom: 5px solid var(--orange); box-shadow: 0 20px 45px rgba(15,46,31,0.12); }
+        .service-card i { font-size: 3.2rem; background: linear-gradient(45deg, var(--orange), #16a34a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 18px; }
+        .service-card h3 { font-size: 1.4rem; color: var(--navy); margin-bottom: 12px; }
+        .service-card p { color: #4b5f52; line-height: 1.6; }
+
+        /* SERVICE DETAIL BLOCKS */
+        .service-detail { padding: 70px 0; }
+        .service-detail.alt { background: var(--gray-bg); }
+        .service-row { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; align-items: center; }
+        .service-row.reverse .service-visual { order: 2; }
+        .service-visual img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); object-fit: cover; height: 360px; }
+        .service-content .icon-badge { width: 66px; height: 66px; border-radius: 18px; background: linear-gradient(45deg, var(--orange), #16a34a); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.7rem; margin-bottom: 18px; box-shadow: 0 8px 22px rgba(34,197,94,0.35); }
+        .service-content h2 { font-size: 2.1rem; color: var(--navy); margin-bottom: 12px; }
+        .service-content h2 span { color: var(--orange); }
+        .service-content p.lead { color: #4b5f52; line-height: 1.8; margin-bottom: 18px; font-size: 1.02rem; }
+        .service-content ul { list-style: none; margin-bottom: 22px; }
+        .service-content ul li { padding: 7px 0 7px 30px; position: relative; color: #33473c; line-height: 1.6; }
+        .service-content ul li::before { content: '\f00c'; font-family: 'Font Awesome 6 Free'; font-weight: 900; color: var(--orange); position: absolute; left: 0; top: 7px; }
+        .service-cta { display: flex; gap: 14px; flex-wrap: wrap; }
+
+        /* SHOP */
+        .shop { padding: 80px 0; background: #fff; }
+        .shop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .product-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; border: 1px solid #e8f5ee; transition: 0.3s; }
+        .product-card:hover { transform: scale(1.02); border-color: var(--orange); }
+        .product-img { height: 200px; background: var(--gray-bg); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .product-img img { width: 100%; height: 100%; object-fit: cover; }
+        .product-body { padding: 20px 22px 25px; }
+        .product-body h4 { font-size: 1.2rem; color: var(--navy); }
+        .product-body .tag { background: var(--orange); color: #fff; padding: 2px 14px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; display: inline-block; margin: 8px 0 10px; }
+        .product-body p { color: #4b5f52; font-size: 0.95rem; margin-bottom: 16px; }
+
+        /* PROJECTS */
+        .projects { padding: 80px 0; background: var(--gray-bg); }
+        .filter-tabs { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-bottom: 45px; }
+        .filter-tabs button { background: #fff; color: var(--navy); padding: 11px 26px; border-radius: 50px; border: 2px solid transparent; font-weight: 700; font-size: 0.92rem; cursor: pointer; transition: 0.3s; box-shadow: var(--shadow); }
+        .filter-tabs button:hover { border-color: var(--orange); transform: translateY(-3px); }
+        .filter-tabs button.active { background: var(--orange); color: #fff; box-shadow: 0 6px 20px rgba(34,197,94,0.4); }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 26px; }
+        .project-card { background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); transition: 0.4s; position: relative; }
+        .project-card:hover { transform: translateY(-8px); box-shadow: 0 22px 50px rgba(15,46,31,0.15); }
+        .project-card .img-wrap { height: 220px; overflow: hidden; position: relative; }
+        .project-card .img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+        .project-card:hover .img-wrap img { transform: scale(1.08); }
+        .project-card .cat-badge { position: absolute; top: 14px; left: 14px; background: rgba(34,197,94,0.95); color: #fff; padding: 5px 14px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; }
+        .project-card .info { padding: 20px 22px 24px; }
+        .project-card .info h4 { color: var(--navy); font-size: 1.2rem; margin-bottom: 6px; }
+        .project-card .info .meta { color: #6b8072; font-size: 0.82rem; margin-bottom: 10px; }
+        .project-card .info .meta i { color: var(--orange); margin-right: 5px; }
+        .project-card .info p { color: #4b5f52; font-size: 0.92rem; line-height: 1.6; }
+        .project-card.hide { display: none; }
+
+        /* ABOUT */
+        .about { padding: 80px 0; background: var(--navy); color: #fff; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .about-text h2 { font-size: 2.6rem; }
+        .about-text h2 span { color: var(--orange); }
+        .about-text p { color: #d1fae5; line-height: 1.8; margin: 18px 0; }
+        .about-stats { display: flex; gap: 40px; margin-top: 20px; }
+        .about-stats div h3 { color: var(--teal); font-size: 2rem; }
+        .about-stats div p { margin: 0; color: #a7d8bb; }
+
+        /* TEAM */
+        .team { padding: 80px 0; background: #fff; }
+        .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
+        .team-card { text-align: center; background: var(--gray-bg); border-radius: var(--radius); padding: 35px 22px; transition: 0.3s; border: 2px solid transparent; }
+        .team-card:hover { border-color: var(--orange); transform: translateY(-8px); }
+        .team-card i { font-size: 3.5rem; color: var(--orange); margin-bottom: 15px; display: block; }
+        .team-card h4 { color: var(--navy); font-size: 1.15rem; }
+        .team-card p { color: var(--orange); font-weight: 600; font-size: 0.9rem; margin-top: 4px; }
+        .team-card small { display: block; color: #4b5f52; margin-top: 10px; font-size: 0.85rem; line-height: 1.5; }
+
+        /* TESTIMONIALS */
+        .testimonials { padding: 80px 0; background: var(--gray-bg); }
+        .testi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .testi-card { background: #fff; border-radius: var(--radius); padding: 32px 28px; box-shadow: var(--shadow); border-top: 5px solid var(--orange); }
+        .testi-card .quote { font-size: 3rem; color: var(--teal); line-height: 1; font-family: Georgia, serif; }
+        .testi-card p { color: #3d5147; line-height: 1.7; margin: 12px 0 0; font-style: italic; }
+        .stars { color: #facc15; margin-bottom: 10px; }
+
+        /* FAQ */
+        .faq { padding: 80px 0; background: #fff; }
+        .faq-list { max-width: 820px; margin: auto; }
+        .faq-item { background: var(--gray-bg); border-radius: 14px; margin-bottom: 14px; overflow: hidden; border: 1px solid #d9f0e2; }
+        .faq-item summary { padding: 20px 24px; font-weight: 700; color: var(--navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; font-size: 1.05rem; }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::after { content: '\f067'; font-family: 'Font Awesome 6 Free'; font-weight: 900; color: var(--orange); transition: 0.3s; }
+        .faq-item[open] summary::after { content: '\f068'; transform: rotate(180deg); }
+        .faq-item p { padding: 0 24px 20px; color: #4b5f52; line-height: 1.7; }
+
+        /* BLOG */
+        .blog { padding: 80px 0; background: var(--gray-bg); }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .blog-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; transition: 0.3s; }
+        .blog-card:hover { transform: translateY(-8px); box-shadow: 0 16px 40px rgba(15,46,31,0.12); }
+        .blog-card .thumb { height: 200px; overflow: hidden; }
+        .blog-card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+        .blog-card:hover .thumb img { transform: scale(1.06); }
+        .blog-card .body { padding: 22px 24px 26px; }
+        .blog-card .date { color: var(--orange); font-weight: 700; font-size: 0.85rem; }
+        .blog-card h4 { font-size: 1.2rem; color: var(--navy); margin: 10px 0 12px; line-height: 1.35; }
+        .blog-card p { color: #4b5f52; line-height: 1.6; font-size: 0.93rem; margin-bottom: 14px; }
+        .blog-card .read { color: var(--orange); font-weight: 700; font-size: 0.9rem; }
+
+        /* CONTACT */
+        .contact { padding: 80px 0; background: #fff; }
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; }
+        .contact-info h3 { font-size: 1.8rem; color: var(--navy); margin-bottom: 18px; }
+        .contact-info p { color: #4b5f52; margin-bottom: 28px; line-height: 1.8; }
+        .contact-detail { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+        .contact-detail i { width: 44px; height: 44px; background: var(--navy); color: var(--teal); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+        .contact-form input, .contact-form textarea, .contact-form select { width: 100%; padding: 14px 18px; margin-bottom: 18px; border: 1px solid #d9e8de; border-radius: 12px; font-size: 1rem; transition: 0.3s; background: #fff; font-family: inherit; }
+        .contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus { border-color: var(--orange); outline: none; box-shadow: 0 0 0 4px rgba(34,197,94,0.15); }
+        .contact-form textarea { height: 120px; resize: vertical; }
+        .map-wrap { margin-top: 22px; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); border: 2px solid var(--gray-bg); }
+        .map-wrap iframe { width: 100%; height: 240px; border: 0; display: block; }
+
+        /* WHATSAPP */
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; z-index: 9999; background-color: #25d366; color: #fff; width: 64px; height: 64px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.6rem; box-shadow: 0 6px 30px rgba(37,211,102,0.5); transition: 0.3s; animation: pulse-whatsapp 2.5s infinite; border: 3px solid #fff; }
+        .whatsapp-float:hover { transform: scale(1.12); background-color: #20b858; }
+        @keyframes pulse-whatsapp { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.6); } 70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); } 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); } }
+
+        /* FOOTER */
+        footer { background: #071c12; color: #9fc4ad; padding: 50px 0 30px; text-align: center; }
+        footer h2 { color: #fff; font-size: 2rem; }
+        footer h2 span { color: var(--orange); }
+        footer .socials { display: flex; justify-content: center; gap: 18px; margin: 20px 0; }
+        footer .socials a { background: var(--navy-light); color: #fff; width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s; }
+        footer .socials a:hover { background: var(--orange); transform: translateY(-5px); }
+        footer .footer-links { display: flex; justify-content: center; gap: 26px; flex-wrap: wrap; margin: 20px 0 25px; }
+        footer .footer-links a { color: #9fc4ad; transition: 0.3s; font-size: 0.92rem; }
+        footer .footer-links a:hover { color: var(--orange); }
+
+        @media (max-width: 992px) {
+            .hero-grid, .about-grid, .contact-grid, .service-row { grid-template-columns: 1fr; }
+            .service-row.reverse .service-visual { order: 0; }
+            .hero-text h1 { font-size: 2.6rem; }
+            .service-visual img { height: 300px; }
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; width: 100%; flex-direction: column; gap: 15px; padding: 20px 0 10px; background: var(--navy); border-top: 1px solid #2a5a3d; }
+            .nav-links.active { display: flex; }
+            .hamburger { display: block; }
+            .hero-text h1 { font-size: 2.1rem; }
+            .section-title h2 { font-size: 2rem; }
+            .about-stats { flex-wrap: wrap; gap: 20px; }
+            .hero-stats { grid-template-columns: 1fr; gap: 15px; }
+            .shop-grid { grid-template-columns: 1fr 1fr; }
+            .filter-tabs button { padding: 9px 20px; font-size: 0.85rem; }
+            .whatsapp-float { width: 56px; height: 56px; font-size: 2.2rem; bottom: 20px; right: 20px; }
+        }
+        @media (max-width: 500px) {
+            .shop-grid, .project-grid { grid-template-columns: 1fr; }
+            .whatsapp-float { width: 50px; height: 50px; font-size: 2rem; bottom: 16px; right: 16px; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "AMCTIC – Abraz Modern City Trading Investment Company",
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80",
+      "url": "https://amctic.com",
+      "telephone": "+96876677111",
+      "email": "sajid@amctic.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Commercial District",
+        "addressLocality": "Salalah",
+        "addressRegion": "Dhofar",
+        "addressCountry": "OM"
+      },
+      "openingHours": "Sa-Th 08:00-18:00",
+      "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>AMCTIC<span>.</span></h1>
+                    <small>ABRAZ MODERN CITY TRADING INVESTMENT COMPANY</small>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact" class="btn-primary" style="padding:8px 22px;">Quote</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>Engineering <span class="highlight">Tomorrow's</span> Infrastructure</h1>
+                    <p><strong>AMCTIC</strong> delivers turnkey solutions in <strong>Construction, HVAC, and CCTV &amp; Network Security</strong> — trusted by 200+ clients across the region.</p>
+                    <div>
+                        <a href="#contact" class="btn-primary">Free Site Survey</a>
+                        <a href="#services" style="color:#fff; margin-left:18px; font-weight:600;">Our Services <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-badges">
+                        <span><i class="fas fa-check-circle"></i> 15+ Years</span>
+                        <span><i class="fas fa-check-circle"></i> 200+ Projects</span>
+                        <span><i class="fas fa-check-circle"></i> 24/7 Support</span>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><h3>150+</h3><p>Construction Sites</p></div>
+                    <div class="stat"><h3>800+</h3><p>AC Units Installed</p></div>
+                    <div class="stat"><h3>500+</h3><p>CCTV Cameras Deployed</p></div>
+                    <div class="stat"><h3>98%</h3><p>Client Satisfaction</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES OVERVIEW ===== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span>Core Services</span></h2>
+                <div class="line"></div>
+                <p>Integrated, reliable, and modern solutions for your property &amp; business.</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-card"><i class="fas fa-hard-hat"></i><h3>General Construction</h3><p>Residential, commercial, fit-outs, road, pipeline and civil works using premium materials.</p></div>
+                <div class="service-card"><i class="fas fa-snowflake"></i><h3>AC &amp; Maintenance</h3><p>Installation, repair, and preventive maintenance for all HVAC systems.</p></div>
+                <div class="service-card"><i class="fas fa-video"></i><h3>CCTV &amp; Networks</h3><p>IP/analog CCTV, structured cabling, fiber optics, and access control.</p></div>
+                <div class="service-card"><i class="fas fa-bolt"></i><h3>MEP Solutions</h3><p>Mechanical, electrical, and plumbing fully integrated with our builds.</p></div>
+                <div class="service-card"><i class="fas fa-microchip"></i><h3>Smart Building Tech</h3><p>IoT automation, energy management, and intelligent lighting systems.</p></div>
+                <div class="service-card"><i class="fas fa-headset"></i><h3>24/7 Emergency</h3><p>Rapid response for AC breakdowns, network failures, and structural issues.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE 1: CONSTRUCTION ===== -->
+    <section class="service-detail" id="construction">
+        <div class="container">
+            <div class="service-row">
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=900&q=80" alt="General construction project by AMCTIC" loading="lazy" />
+                </div>
+                <div class="service-content">
+                    <div class="icon-badge"><i class="fas fa-hard-hat"></i></div>
+                    <h2>General <span>Construction</span></h2>
+                    <p class="lead">Residential, commercial, and industrial builds delivered with premium materials, certified crews, and strict safety standards.</p>
+                    <ul>
+                        <li>Villa &amp; building construction (turnkey)</li>
+                        <li>Commercial fit-outs and renovations</li>
+                        <li>Road, pipeline &amp; civil infrastructure works</li>
+                        <li>Warehouse and industrial sheds</li>
+                        <li>Structural repairs and waterproofing</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn-primary">Request Site Survey</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE 2: HVAC ===== -->
+    <section class="service-detail alt" id="hvac">
+        <div class="container">
+            <div class="service-row reverse">
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1631545806609-25a1d5c8c8b1?w=900&q=80" alt="HVAC and AC installation services" loading="lazy" />
+                </div>
+                <div class="service-content">
+                    <div class="icon-badge"><i class="fas fa-snowflake"></i></div>
+                    <h2>AC &amp; <span>HVAC Solutions</span></h2>
+                    <p class="lead">Installation, repair, and preventive maintenance for split, VRF, chiller, and central AC systems — sized right for Oman's climate.</p>
+                    <ul>
+                        <li>Split, window, and cassette AC installation</li>
+                        <li>VRF / VRV multi-zone systems</li>
+                        <li>Central chiller plant &amp; ducting</li>
+                        <li>Preventive maintenance contracts (AMC)</li>
+                        <li>24/7 emergency breakdown response</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn-primary">Book AC Service</a>
+                        <a href="#shop" class="btn-teal">View AC Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE 3: CCTV & NETWORKS ===== -->
+    <section class="service-detail" id="cctv">
+        <div class="container">
+            <div class="service-row">
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=900&q=80" alt="CCTV and network security installation" loading="lazy" />
+                </div>
+                <div class="service-content">
+                    <div class="icon-badge"><i class="fas fa-video"></i></div>
+                    <h2>CCTV &amp; <span>Network Security</span></h2>
+                    <p class="lead">Complete surveillance and connectivity packages — from a single camera to enterprise-grade multi-site networks.</p>
+                    <ul>
+                        <li>IP &amp; analog CCTV camera installation</li>
+                        <li>NVR / DVR setup with remote mobile viewing</li>
+                        <li>Structured cabling (Cat6, fiber optics)</li>
+                        <li>Enterprise Wi-Fi &amp; managed switches</li>
+                        <li>Access control, biometric &amp; smart locks</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn-primary">Get Security Quote</a>
+                        <a href="#shop" class="btn-teal">Security Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE 4: MEP ===== -->
+    <section class="service-detail alt" id="mep">
+        <div class="container">
+            <div class="service-row reverse">
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900&q=80" alt="MEP engineering solutions" loading="lazy" />
+                </div>
+                <div class="service-content">
+                    <div class="icon-badge"><i class="fas fa-bolt"></i></div>
+                    <h2>MEP <span>Solutions</span></h2>
+                    <p class="lead">Mechanical, electrical, and plumbing systems fully integrated into every AMCTIC build — designed, installed, and commissioned in-house.</p>
+                    <ul>
+                        <li>Electrical wiring, panels &amp; distribution boards</li>
+                        <li>Plumbing, drainage &amp; water supply systems</li>
+                        <li>Firefighting &amp; fire alarm systems</li>
+                        <li>Ductwork, ventilation &amp; exhaust systems</li>
+                        <li>As-built drawings &amp; compliance handover</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn-primary">Discuss MEP Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE 5: SMART BUILDING ===== -->
+    <section class="service-detail" id="smart">
+        <div class="container">
+            <div class="service-row">
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=900&q=80" alt="Smart building automation technology" loading="lazy" />
+                </div>
+                <div class="service-content">
+                    <div class="icon-badge"><i class="fas fa-microchip"></i></div>
+                    <h2>Smart Building <span>Technology</span></h2>
+                    <p class="lead">IoT automation, energy management, and intelligent controls that make your property smarter, safer, and cheaper to run.</p>
+                    <ul>
+                        <li>IoT-based automation (lighting, HVAC, blinds)</li>
+                        <li>Energy monitoring &amp; smart metering</li>
+                        <li>Smart locks &amp; app-controlled access</li>
+                        <li>Integrated BMS (Building Management System)</li>
+                        <li>Solar-ready &amp; green building integration</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn-primary">Automate My Building</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE 6: EMERGENCY ===== -->
+    <section class="service-detail alt" id="emergency">
+        <div class="container">
+            <div class="service-row reverse">
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900&q=80" alt="24/7 emergency maintenance team" loading="lazy" />
+                </div>
+                <div class="service-content">
+                    <div class="icon-badge"><i class="fas fa-headset"></i></div>
+                    <h2>24/7 <span>Emergency Support</span></h2>
+                    <p class="lead">Rapid response for AC breakdowns, network failures, and structural issues — because downtime costs you money.</p>
+                    <ul>
+                        <li>Round-the-clock helpline &amp; dispatch</li>
+                        <li>Emergency AC &amp; refrigeration repair</li>
+                        <li>Network &amp; CCTV failure recovery</li>
+                        <li>On-call structural &amp; plumbing response</li>
+                        <li>Same-day service in most of Salalah</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="tel:+96876677111" class="btn-primary"><i class="fas fa-phone-alt"></i> Call +968 76677111</a>
+                        <a href="https://wa.me/96876677111" target="_blank" rel="noopener" class="btn-teal"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SHOP (8 PRODUCTS) ===== -->
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="section-title">
+                <h2>Product <span>Catalog</span></h2>
+                <div class="line"></div>
+                <p>Browse our premium products. Click <strong>"Request Quote"</strong> to get a custom price.</p>
+            </div>
+            <div class="shop-grid">
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1631545806609-25a1d5c8c8b1?w=600&q=80" alt="VRF AC System" loading="lazy" /></div>
+                    <div class="product-body"><h4>VRF AC System</h4><span class="tag">Commercial</span><p>Energy-efficient multi-zone cooling for offices &amp; villas.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80" alt="4K IP CCTV Kit" loading="lazy" /></div>
+                    <div class="product-body"><h4>4K IP CCTV Kit</h4><span class="tag">Security</span><p>8-channel NVR with night vision &amp; motion detection.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80" alt="Construction Tools" loading="lazy" /></div>
+                    <div class="product-body"><h4>Construction Tools</h4><span class="tag">Equipment</span><p>Professional-grade power tools &amp; scaffolding systems.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80" alt="Enterprise Switch" loading="lazy" /></div>
+                    <div class="product-body"><h4>Enterprise Switch</h4><span class="tag">Networking</span><p>24-port Gigabit managed switch for high-speed networks.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="Split AC Unit" loading="lazy" /></div>
+                    <div class="product-body"><h4>Split AC Unit</h4><span class="tag">Residential</span><p>Inverter split AC with silent operation &amp; low power use.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1606765962248-98c5b0e4b1f8?w=600&q=80" alt="Fiber Optic Cable" loading="lazy" /></div>
+                    <div class="product-body"><h4>Fiber Optic Cable</h4><span class="tag">Networking</span><p>Single &amp; multi-mode fiber for high-bandwidth backbones.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80" alt="Scaffolding System" loading="lazy" /></div>
+                    <div class="product-body"><h4>Scaffolding System</h4><span class="tag">Equipment</span><p>Modular steel scaffolding for safe, tall-site work.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80" alt="Smart Lock" loading="lazy" /></div>
+                    <div class="product-body"><h4>Smart Door Lock</h4><span class="tag">Security</span><p>Fingerprint, card &amp; app access for homes and offices.</p><a href="#contact" class="btn-teal"><i class="fas fa-file-invoice"></i> Request Quote</a></div>
+                </div>
+
+            </div>
+            <p style="text-align:center; margin-top:40px; color:#4b5f52;"><i class="fas fa-info-circle"></i> All products include installation &amp; warranty. Contact us for bulk deals.</p>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Project <span>Portfolio</span></h2>
+                <div class="line"></div>
+                <p>Filter by category to explore our expertise across construction, HVAC, security, and networking.</p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="active" data-filter="all">All Projects</button>
+                <button data-filter="construction">Construction</button>
+                <button data-filter="hvac">HVAC / AC</button>
+                <button data-filter="cctv">CCTV &amp; Security</button>
+                <button data-filter="network">Networking</button>
+            </div>
+
+            <div class="project-grid" id="projectGrid">
+
+                <div class="project-card" data-cat="construction">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" alt="High-rise construction project" loading="lazy" /><span class="cat-badge">Construction</span></div>
+                    <div class="info"><h4>Al-Balad High-Rise Tower</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Salalah • 2025</div><p>18-floor mixed-use residential &amp; commercial tower — full turnkey delivery.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="construction">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1590980304446-3e89e1b6f7e2?w=800&q=80" alt="Luxury villa construction" loading="lazy" /><span class="cat-badge">Construction</span></div>
+                    <div class="info"><h4>Luxury Villa – Awaqad District</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Salalah • 2025</div><p>2,400 m² private villa with smart home wiring and premium finishes.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="hvac">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1631545806609-25a1d5c8c8b1?w=800&q=80" alt="VRF installation" loading="lazy" /><span class="cat-badge">HVAC</span></div>
+                    <div class="info"><h4>Hotel Wing VRF Installation</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Mirbat • 2026</div><p>40 VRF units across a 5-floor hotel wing — 32% lower energy bills.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="hvac">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80" alt="Central chiller plant" loading="lazy" /><span class="cat-badge">HVAC</span></div>
+                    <div class="info"><h4>Central Chiller Plant – Mall</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Salalah • 2025</div><p>1,200 TR chiller plant + ducting for a 25,000 m² shopping mall.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="cctv">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80" alt="CCTV control room" loading="lazy" /><span class="cat-badge">CCTV</span></div>
+                    <div class="info"><h4>Warehouse CCTV – 64 Cameras</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Raysut • 2025</div><p>64 IP cameras + NVR across 3 warehouses with remote monitoring.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="cctv">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80" alt="Access control system" loading="lazy" /><span class="cat-badge">CCTV</span></div>
+                    <div class="info"><h4>Bank Branch Access Control</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Salalah • 2026</div><p>Biometric access + 24 cameras + alarm system for a bank branch.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="network">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80" alt="Network rack" loading="lazy" /><span class="cat-badge">Networking</span></div>
+                    <div class="info"><h4>Corporate HQ Network Upgrade</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Salalah Free Zone • 2025</div><p>Cat6 + fiber, 24-port managed switches for 200+ staff.</p></div>
+                </div>
+
+                <div class="project-card" data-cat="network">
+                    <div class="img-wrap"><img src="https://images.unsplash.com/photo-1606765962248-98c5b0e4b1f8?w=800&q=80" alt="Fiber optic installation" loading="lazy" /><span class="cat-badge">Networking</span></div>
+                    <div class="info"><h4>Campus Fiber Backbone</h4><div class="meta"><i class="fas fa-map-marker-alt"></i> Taqah • 2026</div><p>1.2 km fiber backbone linking 6 buildings — 10 Gbps capacity.</p></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div style="background:var(--navy-light); padding:30px; border-radius:var(--radius); text-align:center; border:2px dashed var(--orange); overflow:hidden;">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80" alt="AMCTIC construction site" style="width:100%; border-radius:12px;" loading="lazy" />
+                    <p style="font-size:1rem; color:var(--text-light); margin-top:15px;">AMCTIC Since 2010</p>
+                </div>
+                <div class="about-text">
+                    <h2>Who We <span>Are</span></h2>
+                    <p><strong>Abraz Modern City Trading Investment Company (AMCTIC)</strong> is a diversified engineering conglomerate. We bridge heavy construction, climate control, and digital security under one roof.</p>
+                    <p>Our philosophy is simple: deliver turnkey quality so our clients don't have to manage multiple contractors. From foundation to final camera alignment — we handle it all.</p>
+                    <div class="about-stats">
+                        <div><h3>2010</h3><p>Founded</p></div>
+                        <div><h3>45+</h3><p>Experts</p></div>
+                        <div><h3>15</h3><p>Countries Served</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TEAM ===== -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span>Expertise</span></h2>
+                <div class="line"></div>
+                <p>Experienced engineers and specialists driving every AMCTIC project.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h4>Leadership &amp; Management</h4>
+                    <p>Founder &amp; CEO</p>
+                    <small>15+ years leading turnkey construction and infrastructure projects across Oman.</small>
+                </div>
+                <div class="team-card">
+                    <i class="fas fa-snowflake"></i>
+                    <h4>HVAC Engineering</h4>
+                    <p>Head of HVAC</p>
+                    <small>Certified HVAC engineer managing 800+ AC installations and maintenance contracts.</small>
+                </div>
+                <div class="team-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Security Systems</h4>
+                    <p>Security Systems Lead</p>
+                    <small>Specialist in IP CCTV, access control, and enterprise network deployments.</small>
+                </div>
+                <div class="team-card">
+                    <i class="fas fa-tasks"></i>
+                    <h4>Project Management</h4>
+                    <p>Project Manager</p>
+                    <small>Coordinates multi-site builds, MEP integration, and client delivery schedules.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Clients <span>Say</span></h2>
+                <div class="line"></div>
+                <p>Trusted by businesses, developers, and homeowners across Dhofar.</p>
+            </div>
+            <div class="testi-grid">
+
+                <div class="testi-card">
+                    <div class="quote">“</div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>AMCTIC handled our entire office build-out — construction, AC, and CCTV — under one contract. Delivered on time and the quality was outstanding.</p>
+                </div>
+
+                <div class="testi-card">
+                    <div class="quote">“</div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>Their HVAC team installed 40 VRF units in our hotel wing. Cooling is perfect, energy bills dropped noticeably, and maintenance is prompt.</p>
+                </div>
+
+                <div class="testi-card">
+                    <div class="quote">“</div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>We needed a full CCTV &amp; network upgrade across 3 branches. AMCTIC delivered in 2 weeks with zero downtime. Highly recommended.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked <span>Questions</span></h2>
+                <div class="line"></div>
+                <p>Quick answers about our services, timelines, and coverage.</p>
+            </div>
+            <div class="faq-list">
+
+                <details class="faq-item" open>
+                    <summary>What areas do you serve?</summary>
+                    <p>We operate across the Dhofar Governorate — Salalah, Mirbat, Taqah, and surrounding areas — and take on larger projects throughout Oman and the GCC.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Do you offer free site surveys and quotes?</summary>
+                    <p>Yes. For construction, HVAC, and CCTV projects we provide a free on-site assessment and a detailed written quotation with no obligation.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>How long does a typical AC installation take?</summary>
+                    <p>A single split unit takes 1 day. Multi-zone VRF or central AC systems typically take 1–3 weeks depending on the property size and layout.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Are your products and installations under warranty?</summary>
+                    <p>Absolutely. All equipment comes with manufacturer warranty (typically 1–5 years) and our installation work is covered by our own service guarantee.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Do you provide maintenance contracts?</summary>
+                    <p>Yes — we offer annual and multi-year preventive maintenance contracts for HVAC, CCTV, and networks, including 24/7 emergency response.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Can you handle combined construction + MEP + security projects?</summary>
+                    <p>That's our specialty. AMCTIC is a turnkey contractor — we manage civil work, MEP, HVAC, and security under a single point of contact.</p>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BLOG ===== -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-title">
+                <h2>News &amp; <span>Insights</span></h2>
+                <div class="line"></div>
+                <p>Stay updated with the latest in construction, HVAC, and security tech.</p>
+            </div>
+            <div class="blog-grid">
+
+                <article class="blog-card">
+                    <div class="thumb"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80" alt="Smart building automation" loading="lazy" /></div>
+                    <div class="body">
+                        <span class="date"><i class="far fa-calendar-alt"></i> June 5, 2026</span>
+                        <h4>5 Trends in Smart Building Automation</h4>
+                        <p>How IoT and AI are reshaping commercial spaces across the Gulf.</p>
+                        <a href="#" class="read">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="thumb"><img src="https://images.unsplash.com/photo-1631545806609-25a1d5c8c8b1?w=800&q=80" alt="AC maintenance" loading="lazy" /></div>
+                    <div class="body">
+                        <span class="date"><i class="far fa-calendar-alt"></i> May 22, 2026</span>
+                        <h4>Preventive AC Maintenance Saves 40% Costs</h4>
+                        <p>Why routine HVAC checks are crucial for your bottom line in Oman's climate.</p>
+                        <a href="#" class="read">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="thumb"><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80" alt="CCTV vs AI surveillance" loading="lazy" /></div>
+                    <div class="body">
+                        <span class="date"><i class="far fa-calendar-alt"></i> May 10, 2026</span>
+                        <h4>CCTV vs. AI Surveillance: What's Best?</h4>
+                        <p>Understanding the difference between traditional CCTV and AI analytics.</p>
+                        <a href="#" class="read">Read More →</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="line"></div>
+                <p>Ready to start your project? Send us a message for a free consultation.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>We're Here to Help</h3>
+                    <p>Visit our headquarters or reach out via phone, email, or the form. Our team responds within 36 hours.</p>
+                    <div class="contact-detail"><i class="fas fa-map-marker-alt"></i><div><strong>AMCTIC</strong> Commercial District, Dhofar, Salalah</div></div>
+                    <div class="contact-detail"><i class="fas fa-phone-alt"></i><div><strong>+968 76677111</strong> (8am to 6pm Support)</div></div>
+                    <div class="contact-detail"><i class="fab fa-whatsapp"></i><div><strong>+968 76677111</strong> — WhatsApp 24/7</div></div>
+                    <div class="contact-detail"><i class="fas fa-envelope"></i><div><strong>sajid@amctic.com</strong></div></div>
+                    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:20px;">
+                        <span style="background:var(--navy); color:#fff; padding:8px 20px; border-radius:50px;"><i class="fas fa-clock"></i> Sat–Thu: 8AM–6PM</span>
+                        <span style="background:var(--orange); color:#fff; padding:8px 20px; border-radius:50px;"><i class="fas fa-certificate"></i> ISO 9001 Certified</span>
+                    </div>
+
+                    <div class="map-wrap">
+                        <iframe src="https://www.google.com/maps?q=Salalah%2C%20Dhofar%2C%20Oman&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="AMCTIC location in Salalah, Dhofar, Oman"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xqkrypdp" method="POST">
+                        <input type="text" name="name" placeholder="Full Name *" required />
+                        <input type="email" name="email" placeholder="Email Address *" required />
+                        <input type="tel" name="phone" placeholder="Phone Number" />
+                        <select name="service_interest" required>
+                            <option value="">I'm interested in...</option>
+                            <option value="construction">General Construction</option>
+                            <option value="ac">AC &amp; HVAC Service</option>
+                            <option value="cctv">CCTV &amp; Network Security</option>
+                            <option value="mep">MEP Solutions</option>
+                            <option value="smart">Smart Building Tech</option>
+                            <option value="product">Product Purchase</option>
+                            <option value="emergency">24/7 Emergency</option>
+                            <option value="other">Other / Combined</option>
+                        </select>
+                        <textarea name="message" placeholder="Tell us about your project or product needs..." required></textarea>
+                        <button type="submit" class="btn-primary" style="width:100%;"><i class="fas fa-paper-plane"></i> Send Inquiry</button>
+                    </form>
+                    <p style="font-size:0.8rem; color:#8a9bb5; margin-top:12px;">🔒 Your information is secure and never shared.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/96876677111?text=Hello%20AMCTIC!%20I%20visited%20your%20website%20and%20would%20like%20to%20inquire%20about..."
+       class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+       <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <h2>AMCTIC<span>.</span></h2>
+            <p style="max-width:500px; margin:8px auto; color:#9fc4ad;">Building trust through quality construction, cool comfort, and secure connectivity.</p>
+            <div class="socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#shop">Shop</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#faq">FAQ</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p style="border-top:1px solid #1b4a30; padding-top:22px; margin-top:10px;">&copy; 2026 AMCTIC – Abraz Modern City Trading Investment Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => { navLinks.classList.toggle('active'); });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => { navLinks.classList.remove('active'); });
+        });
+
+        // Project filter tabs
+        const tabButtons = document.querySelectorAll('.filter-tabs button');
+        const cards = document.querySelectorAll('.project-card');
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.getAttribute('data-filter');
+                cards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-cat') === filter) {
+                        card.classList.remove('hide');
+                    } else {
+                        card.classList.add('hide');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
